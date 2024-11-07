@@ -2,6 +2,7 @@
   "name": "vitest-example",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "vitest run"
   },
@@ -9,6 +10,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.4",
+    "happy-dom": "^15.10.1",
     "vite": "^5.4.10",
     "vitest": "^2.1.4"
   }
